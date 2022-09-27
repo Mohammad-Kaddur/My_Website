@@ -170,13 +170,15 @@ header .container {
 
 
 
-
-
-
-
-
-
-
-
-
 /* End project */
+
+/* Start Footer */
+
+footer{
+    background-color: var(--main-color);
+}
+
+
+
+
+/* End Footer */
