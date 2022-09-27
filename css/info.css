@@ -1,0 +1,175 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+:root {
+    --main-color: #673de6;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: var(--main-color);
+    height: 80px;
+}
+
+header .container {
+    height: 80px;
+}
+
+/* ######## */
+.menu-btn {
+    display: none;
+    background-color: var(--link-colors);
+    border: none;
+    border-radius: 5px;
+}
+
+.offcanvas {
+    display: none;
+    background-color: #f7f5fe;
+}
+
+.search>svg {
+    cursor: pointer;
+}
+
+.menu-box-hover>li>a {
+    transition: .3s;
+}
+
+.menu-box-hover>li>a:hover {
+    transform: translateX(10px);
+}
+
+
+@media (max-width: 991px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .offcanvas {
+        display: block;
+    }
+
+    .menu.box li:hover a {}
+
+    .nav-box {
+        display: none !important;
+    }
+}
+
+
+.title {
+    color: #aaa;
+}
+
+
+.info {
+    margin-bottom: 10px;
+}
+
+.info .container {
+    height: 100vh;
+    height: calc(100% - 80px);
+}
+
+.info h4 svg {
+    font-size: 35px;
+}
+
+.main-text>p {
+    line-height: 2;
+}
+
+.html svg {
+    color: #dd4b25;
+}
+
+.css svg {
+    color: #254bdd;
+}
+
+.js svg {
+    color: #efd81d;
+}
+
+.sass svg {
+    color: #c66394;
+}
+
+.jquery svg {
+    color: #0666a8;
+}
+
+.bootstrap svg {
+    color: #6e10ee;
+}
+
+.github svg {
+    color: #1b1f23;
+}
+
+/* Start project */
+
+.project .container .box {
+    cursor: pointer;
+    background-color: #aaa;
+    padding: 20px;
+    border-radius: 15px;
+    height: 130px;
+    text-align: center;
+}
+.project .container .box:hover .content .details{
+    height: 300px;
+}
+
+.project .container .box:hover .content .details {
+    display: block;
+}
+
+.project .container .box .image {
+    width: 100%;
+}
+
+.project .container .box .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.project .container .box .content {
+    transition: .3s;
+    overflow: hidden;
+}
+
+.project .container .box .content .details {
+    /* display: none; */
+    transition: .3s;
+    margin-top: 25px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* End project */

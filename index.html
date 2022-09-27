@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/info.css">
+    <!-- Goolge Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="m-auto">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="header-logo">
+                <a href="" class="text-white">
+                    <span>Mohammad</span>
+                    <span>Kadour</span>
+                </a>
+            </h1>
+            <!-- ############ -->
+            <div class="nav-box d-flex align-items-center">
+                <ul class="menu-box mb-0 d-flex justify-content-center align-items-center">
+                    <li class="">
+                        <a class="text-white fs-4 mt-3 mb-3 d-block ms-2 me-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="">
+                        <a class="text-white fs-4 mt-3 mb-3 d-block ms-2 me-2" href="#">My Skills</a>
+                    </li>
+                    <li class="">
+                        <a class="text-white fs-4 mt-3 mb-3 d-block ms-2 me-2" href="#">Contact Me</a>
+                    </li>
+                    <li class="">
+                        <a class="text-white fs-4 mt-3 mb-3 d-block ms-2 me-2" href="#">About Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ############## -->
+            <div class="offcanvas offcanvas-end p-3" id="main">
+                <div class="offcanvas-header ms-3 me-3">
+                    <button class="btn-close fs-2" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body mt-3 ms-3 me-3 h-100">
+                    <ul class="menu-box menu-box-hover">
+                        <li class="">
+                            <a class="text-black fs-4 mt-3 mb-3 d-block" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="">
+                            <a class="text-black fs-4 mt-3 mb-3 d-block" href="#">My Skills</a>
+                        </li>
+                        <li class="">
+                            <a class="text-black fs-4 mt-3 mb-3 d-block" href="#">My Project</a>
+                        </li>
+                        <li class="">
+                            <a class="text-black fs-4 mt-3 mb-3 d-block" href="#">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- ########## -->
+            <button class="menu-btn p-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#main"
+                aria-expanded="true">
+                <i class="fa-solid fa-bars fs-2 text-white"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- End Header -->
+    <div class="info mt-5">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="main-text text-center text-black">
+                <h1 class="fs-1 fw-bolder">
+                    Welcome To My Website
+                </h1>
+                <p class="fs-4 ps-5 pe-5">I am Software Engineering && Front_End Develeper<br>I Am 25 Years Old, Student
+                    Software In Pearson
+                    Universite</p>
+            </div>
+        </div>
+    </div>
+    <!-- Skills -->
+    <div class="skills">
+        <div class="container mt-5">
+            <h2 class="title fs-1 text-center fw-bolder text-uppercase">
+                My Skills
+            </h2>
+            <div class="box text-black d-flex justify-content-center flex-column text-center pt-5">
+                <div class="info html">
+                    <h4><i class="fa-brands fa-html5"></i> HTML</h4>
+                </div>
+                <div class="info css">
+                    <h4><i class="fa-brands fa-css3-alt"></i> CSS</h4>
+                </div>
+                <div class="info js">
+                    <h4><i class="fa-brands fa-js"></i> JavaScript (OOP &amp; API &amp; AJAX &amp; JSON)</h4>
+                </div>
+                <div class="info sass">
+                    <h4><i class="fa-brands fa-sass"></i> Sass</h4>
+                </div>
+                <div class="info jquery">
+                    <h4><i class="fa-solid fa-rss"></i> jQuery</h4>
+                </div>
+                <div class="info bootstrap">
+                    <h4><i class="fa-brands fa-bootstrap"></i> Bootstrap</h4>
+                </div>
+                <div class="info git">
+                    <h4><i class="fa-brands fa-git"></i> Git &amp; <i class="fa-brands fa-github"></i> GitHub</h4>
+                </div>
+                <div class="info testing">
+                    <h4>Testing</h4>
+                </div>
+                <div class="info pug">
+                    <h4>Pugjs</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="container mt-5">
+            <h2 class="title fs-1 text-center fw-bolder text-uppercase">
+                My Project
+            </h2>
+            <div class="boxs d-flex flex-wrap gap-1">
+                <div class="box">
+                    <div class="image">
+                        <img src="Images/My Template One - .png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="details text-center mt-3">
+                            <h2>My Project One</h2>
+                            <a href="" class="">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box col-md-3">
+                    <div class="image">
+                        <img src="Images/My Template One - .png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="details">
+                            <h2>My Project One</h2>
+                            <a href="" class="">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box col-md-3">
+                    <div class="image">
+                        <img src="Images/My Template One - .png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="details">
+                            <h2>My Project One</h2>
+                            <a href="" class="">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box col-md-3">
+                    <div class="image">
+                        <img src="Images/My Template One - .png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="details">
+                            <h2>My Project One</h2>
+                            <a href="" class="">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Js File -->
+    <script src="js/info.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+</body>
+
+</html>
