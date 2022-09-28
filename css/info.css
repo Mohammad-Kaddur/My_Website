@@ -184,8 +184,15 @@ header .container {
     width: 100%;
     padding: 20px 30px;
     border-radius: 6px;
-    background-color: #eee;
+    background-color: #fff;
     padding: 20px;
+}
+.download-cv{
+    position: relative;
+    z-index: 10;
+}
+.download-cv a{
+    background-color: var(--main-color);
 }
 
 @media (max-width : 720px) {
@@ -219,7 +226,7 @@ header .container {
 
 .project .container .box {
     cursor: pointer;
-    background-color: #efefef;
+    background-color: #fff;
     padding: 20px;
     border-radius: 15px;
     text-align: center;

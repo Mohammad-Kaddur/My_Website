@@ -1,12 +1,6 @@
-// let arr = "Welcome In My Website for Web Site";
-// let i = 0,
-//   text = "";
-// let div = document.querySelector("div");
-// function write() {
-//   if (i < arr.length) {
-//     div.innerHTML += text.charAt(i);
-//     i++;
-//     setTimeout(write, 100);
-//   }
-// }
-// write();
+let download = document.getElementById("download-cv");
+console.log(download);
+download.onclick = function () {
+  download.herf =
+    "https://drive.google.com/file/d/1zPFyll-xNlYhiHIY0kRY5G8XETQQPNd5/view?usp=drivesdk";
+};
