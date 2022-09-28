@@ -64,14 +64,10 @@ header .container {
         display: block;
     }
 
-    .menu.box li:hover a {}
-
     .nav-box {
         display: none !important;
     }
 }
-
-.main-box {}
 
 .title {
     color: #aaa;
@@ -86,7 +82,9 @@ header .container {
     height: 100vh;
     height: calc(100% - 80px);
 }
-
+.info h4{
+    font-size: 20px;
+}
 .info h4 svg {
     font-size: 35px;
 }
@@ -192,7 +190,7 @@ header .container {
 
     .contact .container .right {
         left: 0px;
-        }
+    }
 }
 
 
