@@ -70,9 +70,8 @@ header .container {
         display: none !important;
     }
 }
-.main-box{
 
-}
+.main-box {}
 
 .title {
     color: #aaa;
@@ -124,13 +123,96 @@ header .container {
     color: #1b1f23;
 }
 
+
+/* Start Contact */
+
+.contact .container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 6px;
+    height: 100%;
+    margin-left: -3px;
+    background-color: var(--main-color);
+}
+
+.contact .container .main-content {
+    padding: 10px 40px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.contact .container .main-content::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 8px solid var(--main-color);
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.contact .container .right::after {
+    left: -8px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 6px;
+    background-color: #eee;
+    padding: 20px;
+}
+
+@media (max-width : 720px) {
+    .contact .container::after {
+        left: 30px;
+    }
+
+    .contact .container .main-content::after {
+        left: 10px;
+    }
+
+    .contact .container .main-content {
+        width: 100% !important;
+    }
+
+    .contact .container .right {
+        left: 0px;
+        }
+}
+
+
+
+
+
+
+
+
+
+/* End Contact */
+
 /* Start project */
 
-.project .container .boxs{
+.project .container .boxs {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
+
 .project .container .box {
     cursor: pointer;
     background-color: #aaa;
@@ -139,7 +221,8 @@ header .container {
     /* height: 130px; */
     text-align: center;
 }
-.project .container .box:hover .content .details{
+
+.project .container .box:hover .content .details {
     /* height: 300px; */
 }
 
@@ -165,7 +248,7 @@ header .container {
     /* display: none; */
     transition: .3s;
     margin-top: 25px;
-    
+
 }
 
 
@@ -174,7 +257,7 @@ header .container {
 
 /* Start Footer */
 
-footer{
+footer {
     background-color: var(--main-color);
 }
 
